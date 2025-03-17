@@ -1,6 +1,5 @@
 site_name: CloudsEvents
 site_url: https://docs.clouds-studios.com/cloudsevents
-dev_addr: 100.71.249.28:80
 copyright: <a href="https://www.clouds-studios.com"><b>Clouds Studios</b></a> &copy 2025-2025
 
 theme:
