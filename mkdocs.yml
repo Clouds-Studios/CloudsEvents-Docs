@@ -1,0 +1,61 @@
+site_name: CloudsEvents
+site_url: https://docs.clouds-studios.com/cloudsevents
+dev_addr: 100.71.249.28:80
+copyright: <a href="https://www.clouds-studios.com"><b>Clouds Studios</b></a> &copy 2025-2025
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: purple
+  language: en
+  logo: assets/Logo.png
+  favicon: assets/Logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - header.autohide
+    - navigation.footer
+    - content.code.copy
+
+plugins:
+  - search
+  - mkdocs-nav-weight:
+      section_renamed: true
+      index_weight: -10
+      warning: true
+      reverse: false
+      headless_included: false
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.clouds-studios.com/
+      name: Clouds Studios on Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/Clouds-Studios/
+      name: Clouds Studios on GitHub
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/clouds_studiosofficial
+      name: Clouds Studios on Instagram
+  generator: true
+markdown_extensions:
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+        base_path: 'docs/'
