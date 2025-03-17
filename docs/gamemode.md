@@ -43,7 +43,7 @@ The <b>Color Party</b> game mode allows you and other players to play with color
 
 === "After Building"  
 
-    After building the map, we can configure the `mapConfig.yml`. In this case, the configuration will be explained <b>specifically for this game mode</b>.  
+    After building the map, we can configure the `mapConfig.yml`. After setting up this configuration section the game mode will be completed.  
 
     <i>The two vertices of the game base (X,Y,Z).</i>  
     ```yaml title="Vertices of Game base"  
@@ -57,14 +57,15 @@ The <b>Color Party</b> game mode allows you and other players to play with color
     ```  
 
     <i>The level from which PvP will be enabled. To disable it, type -1.</i>  
-    ```yaml title="Level of PVP enabled"  
+    ```yaml title="Level of PvP enabled"  
             pvp-level: 10  
     ```  
 
     <i>The PvP type. If multiple, separate them with `;;`</i>  
-    : <i>HAND (fist combat)</i>
-    : <i>SNOWBALL.</i>  
-    ```yaml title="PVP type"  
+    - <i>HAND (fist combat)</i><br>
+    - <i>SNOWBALL</i>
+
+    ```yaml title="PvP type"  
             pvp-type: "HAND;;SNOWBALL"  
     ```  
 
@@ -82,13 +83,27 @@ The <b>Color Party</b> game mode allows you and other players to play with color
               10: 2  
     ```  
 
-    And this is how you can configure the ColorParty game.  
+    And this is how you can configure the ColorParty mode.  
 
-## TimerSpleef  
-The <b>TimerSpleef</b> mode consists of multiple platforms where, if a player touches a block, it changes color until it <b>disappears</b>. The last player to fall <b>wins</b>.  
+## SumoFFA  
+The SumoFFA mode consists of PvP without weapons. The last player to fall <b>wins</b>.  
 
 === "Before the Config"  
-    Before configuring, as in ColorParty, you <b>must</b> build a map for this mode. There will be a spawn cage, but instead of a colored platform, there will be multiple platforms made of a specific block, stacked one below the other. For example:  
+    Before configuring it, as in ColorParty, you need a map with a spawn cage and a platform below where players can fight.<br> 
+
+    <i>For example:</i><br>
+    ![SumoFFAMap](https://i.imgur.com/WSsb7WU.png){ align=left }  
+
+=== "After Building"  
+    <i>In this mode, there is no a specific configuration. Unlike the previous one, you only need to fill in the general configuration.</i>
+
+## TimerSpleef  
+The <b>TimerSpleef</b> game mode consists of multiple platforms where, if a player touches a block, it gradually changes color until it <b>disappears</b>. The last player to fall <b>wins</b>.  
+
+=== "Before the Config"  
+    Before configuring it, as in the previous game modes, you'll build a map. There will be a spawn cage, but instead of a colored platform, there will be multiple platforms made of a specific block, stacked one below the other.<br> 
+
+    <i>For example:</i><br>  
     ![TimerSpleefMap](https://i.imgur.com/rryGfk5.png){ align=left }  
 
 === "After Building"  
@@ -104,14 +119,4 @@ The <b>TimerSpleef</b> mode consists of multiple platforms where, if a player to
     The seconds between each level.  
     ```yaml title="Seconds"  
             level-time: 5  
-    ```  
-
-## SumoFFA  
-The SumoFFA mode consists of PvP without weapons. The last player to fall wins.  
-
-=== "Before the Config"  
-    Before configuring, as in the previous game modes, you need a map with a spawn cage and a platform below where players can fight. For example:  
-    ![SumoFFAMap](https://i.imgur.com/WSsb7WU.png){ align=left }  
-
-=== "After Building"  
-    <i>In this mode, there is no specific configuration. Unlike the previous ones, you only need to fill in the general configuration.</i>
+    ```
