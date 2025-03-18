@@ -1,6 +1,6 @@
 # Overview
 
-Welcome to the official documentation for CloudsEvents.
+Welcome to the official documentation of Clouds Studios.
 
 ## Links
 <b>Website:</b> [www.clouds-studios.com](https://www.clouds-studios.com/)<br>

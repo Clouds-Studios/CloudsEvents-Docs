@@ -1,16 +1,15 @@
 # Copyright (c) 2025-2025 Clouds Studios <copyright@clouds-studios.com>
 # Licensed under the EUPL v. 1.2
-site_name: CloudsEvents
-site_url: https://docs.clouds-studios.com/cloudsevents
-dev_addr: 100.76.252.13:80
+site_name: Clouds Studios
+site_url: https://docs.clouds-studios.com/
 copyright: <a href="https://www.clouds-studios.com"><b>Clouds Studios</b></a> &copy 2025-2025
 
 theme:
   name: material
   palette:
     scheme: slate
-    primary: deep purple
-    accent: purple
+    primary: blue
+    accent: cyan
   language: en
   logo: assets/Logo.png
   favicon: assets/Logo.png
