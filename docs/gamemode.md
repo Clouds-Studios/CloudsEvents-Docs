@@ -85,8 +85,8 @@ The <b>Color Party</b> game mode allows you and other players to play with color
 
     And this is how you can configure the ColorParty mode.  
 
-## SumoFFA  
-The SumoFFA mode consists of PvP without weapons. The last player to fall <b>wins</b>.  
+## Sumo FFA  
+The Sumo FFA mode consists of PvP without weapons. The last player to fall <b>wins</b>.  
 
 === "Before the Config"  
     Before configuring it, as in ColorParty, you need a map with a spawn cage and a platform below where players can fight.<br> 
@@ -97,8 +97,8 @@ The SumoFFA mode consists of PvP without weapons. The last player to fall <b>win
 === "After Building"  
     <i>In this mode, there is no a specific configuration. Unlike the previous one, you only need to fill in the general configuration.</i>
 
-## TimerSpleef  
-The <b>TimerSpleef</b> game mode consists of multiple platforms where, if a player touches a block, it gradually changes color until it <b>disappears</b>. The last player to fall <b>wins</b>.  
+## Timer Spleef  
+The <b>Timer Spleef</b> game mode consists of multiple platforms where, if a player touches a block, it gradually changes color until it <b>disappears</b>. The last player to fall <b>wins</b>.  
 
 === "Before the Config"  
     Before configuring it, as in the previous game modes, you'll build a map. There will be a spawn cage, but instead of a colored platform, there will be multiple platforms made of a specific block, stacked one below the other.<br> 
